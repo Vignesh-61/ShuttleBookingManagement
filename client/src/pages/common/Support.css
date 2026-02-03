@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-image: url('D:\Reference\shuttlemanagement\client\src\BackgroundImage.jpg');
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.support-page {
+    min-height: 100vh;
+    width: 100%;
+    padding: 80px 20px;
+    background-color: #0d1117;
+    display: flex;
+    justify-content: center;
+}
+
+.support-container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.support-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.support-title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #60a5fa, #a78bfa);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.support-subtitle {
+    font-size: 1.2rem;
+    color: #8b949e;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.support-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.contact-card,
+.chatbot-card {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 20px;
+    padding: 40px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.contact-card:hover,
+.chatbot-card:hover {
+    transform: translateY(-5px);
+    border-color: #58a6ff;
+}
+
+.card-title {
+    font-size: 1.8rem;
+    color: #f0f6fc;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.contact-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.method {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.method .icon {
+    font-size: 1.5rem;
+}
+
+.method .link {
+    color: #58a6ff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.method .link:hover {
+    color: #79c0ff;
+    text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+    .support-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .support-page {
+        padding: 60px 15px;
+    }
+
+    .support-title {
+        font-size: 2.5rem;
+    }
+}

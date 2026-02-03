@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-image: url('D:\Reference\shuttlemanagement\client\src\BackgroundImage.jpg');
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}   
+
+.ourdestination {
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.project {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.tittle {
+    font-size: 36px;
+    color: #a371f7;
+}
+
+.Team,
+.projectoverview {
+    background-color: #161b22;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.heading,
+.developer {
+    color: #58a6ff;
+    font-size: 24px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.developer {
+    color: #d2a8ff;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.dept,
+.batch {
+    color: #8b949e;
+    margin-top: 5px;
+}
+
+.aboutproject {
+    line-height: 1.5;
+    color: #c9d1d9;
+}

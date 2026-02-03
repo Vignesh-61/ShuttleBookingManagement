@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-image: url('D:\Reference\shuttlemanagement\client\src\BackgroundImage.jpg');
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.layout-container {
+    min-height: 100vh;
+}
+
+.layout-main-section {
+    margin-top: 64px;
+}
+
+.layout-content {
+    padding: 30px;
+    min-height: calc(100vh - 64px);
+}
+
+.layout-content.with-sidebar {
+    margin-left: 250px;
+}

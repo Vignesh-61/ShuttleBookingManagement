@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-image: url('D:\Reference\shuttlemanagement\client\src\BackgroundImage.jpg');
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.my-vehicles-container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.vehicles-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.vehicles-header h1 {
+    font-size: 2rem;
+    color: #0f172a;
+    margin-bottom: 0.5rem;
+}
+
+.add-vehicle-btn {
+    background: #4f46e5;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.add-vehicle-btn:hover {
+    background: #4338ca;
+    transform: translateY(-2px);
+}
+
+.add-vehicle-overlay {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-bottom: 3rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+.add-vehicle-form h2 {
+    margin-bottom: 1.5rem;
+    color: #1e293b;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group.full-width {
+    grid-column: 1 / -1;
+}
+
+.form-group label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #64748b;
+}
+
+.form-group input {
+    padding: 0.75rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.submit-form-btn {
+    margin-top: 2rem;
+    width: 100%;
+    background: #06b6d4;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.vehicles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.vehicle-card {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+    transition: transform 0.3s;
+    border: 1px solid #f1f5f9;
+}
+
+.vehicle-card:hover {
+    transform: translateY(-5px);
+}
+
+.vehicle-image {
+    height: 180px;
+    background: #e2e8f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vehicle-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.no-image {
+    color: #94a3b8;
+    font-weight: 500;
+}
+
+.vehicle-info {
+    padding: 1.5rem;
+}
+
+.vehicle-info h3 {
+    font-size: 1.25rem;
+    color: #1e293b;
+    margin-bottom: 0.25rem;
+}
+
+.vehicle-num {
+    background: #f1f5f9;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-family: monospace;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.route-info {
+    font-weight: 600;
+    color: #4f46e5;
+    margin-bottom: 1rem;
+}
+
+.extra-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    color: #64748b;
+    margin-bottom: 1rem;
+}
+
+.status-indicator {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+}
+
+.status-indicator.active {
+    background: #dcfce7;
+    color: #166534;
+}

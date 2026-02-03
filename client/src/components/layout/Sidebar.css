@@ -1,0 +1,102 @@
+.sidebar-container {
+    width: 250px;
+    background-color: #161b22;
+    position: fixed;
+    top: 64px;
+    left: 0;
+    bottom: 0;
+    color: white;
+    background: transparent;
+}
+
+.sidebar-header {
+    padding: 20px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+
+.portal-title {
+    font-size: 18px;
+}
+
+.portal-role {
+    color: #58a6ff;
+    font-size: 12px;
+}
+
+.sidebar-user-card {
+    background-color: #21262d;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.user-card-label {
+    font-size: 10px;
+    color: #8b949e;
+}
+
+.user-card-name {
+    font-size: 14px;
+}
+
+.sidebar-nav {
+    padding: 10px;
+}
+
+.nav-item {
+    display: block;
+    padding: 10px;
+    color: #8b949e;
+    text-decoration: none;
+    margin-bottom: 3px;
+    border-radius: 5px;
+}
+
+.nav-item:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.nav-item.active {
+    background-color: #8b949e;
+    color: white;
+}
+
+.sidebar-divider {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #21262d;
+}
+
+.nav-section-label {
+    font-size: 10px;
+    color: #8b949e;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+.sidebar-footer {
+    padding: 15px;
+}
+
+.logout-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #21262d;
+    border: none;
+    color: #f85149;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.logout-btn:hover {
+    background-color: #f85149;
+    color: white;
+}
